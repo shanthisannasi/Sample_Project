@@ -11,7 +11,7 @@ def isFibonacci(inputNumber):
    else:
     return "No"
 
-inputNumber=int(input("Enter random number:\n"))
+inputNumber=5
 if(isFibonacci(inputNumber) == "Yes"):
          print (inputNumber,"is a Fibonacci Number")
 else:
